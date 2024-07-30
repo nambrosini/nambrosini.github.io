@@ -1,0 +1,42 @@
+title: "Nico Ambrosini"
+author: "Nico Ambrosini"
+description: >- # this means to ignore newlines until "baseurl:"
+  A blog
+domain: nambrosini.github.io
+url: "https://nambrosini.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: 4mbr0s
+github_username: nambrosini 
+
+# Build settings
+theme: minima
+
+# Layout
+sidebar: true
+show_excerpts: true          # show article excerpts on the home page
+show_related: true           # show the previous and next links after every post
+show_description: true       # show the site description in the sidebar
+show_title: true             # always keep the site title visible
+
+# Styling
+dark_header: true            # always keep the header dark
+minimal: false               # use simpler style
+
+# Menu
+navigation:
+  - {file: "index.html", icon: home}
+  - {file: "about.md", icon: address-card}
+  - {file: "software.md", icon: cube}
+
+external:                    # see http://fontawesome.com/icons
+  - {title: Mail, icon: envelope, url: "mailto:pkolaczk@gmail.com"}
+  - {title: Github, icon: github, url: "https://github.com/pkolaczk"}
+  - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/pkolaczk"}
+  - {title: RSS, icon: rss, url: "/feed.xml"}
+
+comments:
+  disqus: true
+  disqus_shortname: pkolaczk        # see https://disqus.com/
+
+
+plugins: 
+  - jekyll-feed
